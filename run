@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "#include<stdio.h>
+int main(){
+
+return 0;
+}" > $1 && nano $1 && gcc -o 1 $1 && ./1
